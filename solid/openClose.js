@@ -46,7 +46,7 @@ class Specification {
   isSatisfied(item) {}
 }
 
-class ColorSpecification extends Specification {
+class ColorSpecification {
   constructor(color) {
     this.color = color;
   }
@@ -55,7 +55,7 @@ class ColorSpecification extends Specification {
     return item.color === this.color;
   }
 }
-class SizeSpecification extends Specification {
+class SizeSpecification {
   constructor(size) {
     this.size = size;
   }
